@@ -1,0 +1,23 @@
+{
+  "skill_name": "plan-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to build a personal task manager web app called 'TaskFlow'. It should have a React frontend with a clean, modern UI, a Node.js/Express backend, and PostgreSQL for storage. Users need to register/login, create projects, add tasks with due dates and priority levels (low/medium/high), mark tasks as complete, and filter tasks by status, priority, or project. Tasks should support drag-and-drop reordering within a project. The app should send email reminders for overdue tasks. I want real-time updates when multiple users collaborate on the same project. Make sure it's secure, well-tested, and deployable to AWS. Create a comprehensive plan.",
+      "expected_output": "A PLAN.md file in the workspace root with an exhaustive checklist covering architecture, authentication, database schema, API design, frontend components, real-time updates, deployment to AWS, security, testing, CI/CD, and observability. Tasks must be atomic and verifiable.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need to build a CLI password manager in Rust called 'vault-cli'. It should let users store and retrieve passwords encrypted at rest in a local file. Features: master password unlock, add/update/delete entries (service name, username, password, notes), search entries, generate strong random passwords, import/export CSV, and copy passwords to clipboard without displaying them. The vault file must use AES-256-GCM encryption with a key derived from the master password using Argon2id. It should work on Windows, macOS, and Linux. I want a detailed technical plan covering architecture, crypto design, error handling, testing strategy, and release process.",
+      "expected_output": "A PLAN.md file in the workspace root with an exhaustive checklist covering crypto architecture (AES-256-GCM, Argon2id key derivation), CLI structure (clap or similar), file format, error handling, cross-platform considerations, testing strategy, release process, and distribution. Tasks must be atomic and verifiable.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Design a food delivery platform similar to Uber Eats. We need: a customer mobile app (React Native), a restaurant dashboard (React web app), a driver app (React Native), and a backend (Go microservices). Microservices: order-service, restaurant-service, delivery-service, payment-service, notification-service, and user-service. Use PostgreSQL per service, Redis for caching, RabbitMQ for async messaging, and Kubernetes for orchestration. Features: restaurant search with geolocation, real-time order tracking, payment processing via Stripe, push notifications, rating system, and surge pricing during peak hours. The plan needs to be extremely detailed — every data model, every API endpoint, every deployment step. I'm planning to have an AI agent build this autonomously.",
+      "expected_output": "A PLAN.md file in the workspace root with an exhaustive checklist covering all 6 microservices, data models, API contracts, event schemas, Kubernetes manifests, CI/CD pipeline, observability, payment integration, geolocation, notification infrastructure, and cross-service concerns. Tasks must be atomic and verifiable.",
+      "files": []
+    }
+  ]
+}

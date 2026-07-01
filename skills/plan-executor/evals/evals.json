@@ -1,0 +1,23 @@
+{
+  "skill_name": "plan-executor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Execute the development plan in PLAN.md. Build the project completely, run all tests, and mark everything as done.",
+      "expected_output": "All PLAN.md checklist items marked as [x]. A working wc/ Python package with word/line/char/byte counting CLI. All unit and integration tests passing. README.md and pyproject.toml present.",
+      "files": ["evals/files/wc_plan.md"]
+    },
+    {
+      "id": 2,
+      "prompt": "Follow PLAN.md and implement this project. Don't stop until everything is built, tested, and verified.",
+      "expected_output": "All PLAN.md checklist items marked as [x]. A working Express.js REST API with CRUD endpoints for todos, in-memory storage, validation, and error handling. Jest tests all passing. README.md present.",
+      "files": ["evals/files/todo_api_plan.md"]
+    },
+    {
+      "id": 3,
+      "prompt": "Build this library according to PLAN.md. Implement every function, write all tests, make sure everything passes.",
+      "expected_output": "All PLAN.md checklist items marked as [x]. A working strutils/ Python package with slugify, truncate, camel_to_snake, snake_to_camel, extract_emails, and mask_string functions. Pytest tests all passing. README.md and pyproject.toml present.",
+      "files": ["evals/files/strutils_plan.md"]
+    }
+  ]
+}
