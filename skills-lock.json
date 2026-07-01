@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "git-automation": {
+      "source": "pedromrtz/skills",
+      "sourceType": "github",
+      "skillPath": "skills/git-automation/SKILL.md",
+      "computedHash": "37293c7df5e43ab0e23e820c9a89f3e2345e0cbfec0b0dcc46752f597375ed90"
+    },
     "skill-creator": {
       "source": "anthropics/skills",
       "sourceType": "github",
