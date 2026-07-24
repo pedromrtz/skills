@@ -32,6 +32,7 @@ npx skills add https://github.com/pedromrtz/skills --skill <skill-name>
 | [mentor-for-dummies](skills/mentor-for-dummies/SKILL.md) | Explains any software project in beginner-friendly, plain language for non-programmers. Defines every technical term with analogies and progressive disclosure. |
 | [plan-executor](skills/plan-executor/SKILL.md) | Executes a `PLAN.md` checklist continuously and autonomously until the project is fully implemented, validated, and production-ready. |
 | [plan-generator](skills/plan-generator/SKILL.md) | Generates comprehensive, implementation-ready development blueprints as exhaustive `PLAN.md` checklists from project descriptions. |
+| [trilium](skills/trilium/SKILL.md) | Uses the Trilium MCP to search, create, update, and organize the user's Trilium knowledge base, including UTEC notes, courses, tasks, evaluations, resources, contacts, and quick captures. |
 
 ## Usage
 
@@ -57,7 +58,8 @@ skills/
 │   ├── git-automation/
 │   ├── mentor-for-dummies/
 │   ├── plan-executor/
-│   └── plan-generator/
+│   ├── plan-generator/
+│   └── trilium/
 ├── .agents/skills/                # Internal agent tooling (skill-creator)
 ├── skills-lock.json               # Lockfile tracking installed skill sources and hashes
 ├── .gitignore

@@ -1,0 +1,23 @@
+{
+  "skill_name": "trilium",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "/trilium busca en mi base que contactos tengo para soporte tecnico de UTEC y resumime a quien escribir segun el caso",
+      "expected_output": "Uses Trilium MCP search/read tools, reads the UTEC support/contact notes, summarizes the relevant contacts in Spanish, and cites the source note titles.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "/trilium crea una nota para una tarea de MAT1-V Matematica I que vence el viernes, estado pendiente, plataforma Blackboard, y deja secciones para instrucciones, archivos y notas",
+      "expected_output": "Creates a text note under UTEC / 2026 / Ciclo 02 / Entregables using the existing entregable template and reports the created note ID and parent.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "/trilium quiero guardar rapidamente una idea suelta sobre ORTI-V pero todavia no se si es tarea o material de clase: revisar el concepto de productividad antes del parcial",
+      "expected_output": "Creates or suggests creating a quick capture under UTEC / 2026 / Ciclo 02 / Capturas rapidas, preserving enough context to move it later, instead of cluttering top-level notes.",
+      "files": []
+    }
+  ]
+}
